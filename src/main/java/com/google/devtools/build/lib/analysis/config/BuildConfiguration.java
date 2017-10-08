@@ -406,6 +406,8 @@ public final class BuildConfiguration {
                 return "arm";
               case S390X:
                 return "s390x";
+              case AARCH64:
+                return "aarch64";
               default:
                 return "unknown";
             }
